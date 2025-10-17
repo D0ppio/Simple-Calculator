@@ -132,12 +132,12 @@ body {
   margin: 4px 0;
 }
 
-.color-menu__item span {
+.color-menu__item label {
   font-size: 0.85rem;
   font-weight: 500;
   user-select: none;
   pointer-events: none;
-  color: #ffffff;
+  color: #ffffff !important;
 }
 
 .color-menu__item input[type='color'] {
