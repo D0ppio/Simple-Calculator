@@ -7,13 +7,16 @@
     "start": "webpack serve --config config/webpack.config.js --mode development",
     "build": "webpack --config config/webpack.config.js --mode production",
     "lint": "eslint src --ext .js",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "css-loader": "^7.1.2",
     "eslint": "^9.37.0",
+    "gh-pages": "^6.3.0",
     "html-webpack-plugin": "^5.6.4",
     "husky": "^8.0.3",
     "lint-staged": "^16.2.4",

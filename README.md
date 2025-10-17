@@ -3,7 +3,8 @@ Create a web-based calculator that performs basic arithmetic operations (
 addition, subtraction, multiplication, division), percentage calculations, and
 sign changes.  
 The app should also support color theme customization directly from the
-interface.
+interface. 
+Task link: [Download PDF](docs/innowise-lab-internship-level0-simple-calculator.pdf?raw=true)
 
 How to Run the App
 
@@ -31,4 +32,4 @@ Project Structure
 - **webpack.config.js** — Webpack configuration file
 - **README.md** — project documentation
 
-   
+Deployment: https://d0ppio.github.io/Simple-Calculator/
